@@ -6,40 +6,9 @@
     <title>Student Dashboard</title>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Student Dashboard</h1>
-        <p>Welcome, Alex Johnson!</p>
-    </header>
-
-    <!-- Container for Sidebar and Main Content -->
-    <div class="container">
-        <!-- Sidebar Navigation -->
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="#dashboard">Dashboard</a></li>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#grades">Grades</a></li>
-                </ul>
-            </nav>
-        </aside>
-
-        <!-- Main Content -->
+ <!-- Main Content -->
         <main>
-            <!-- Announcements Section -->
-            <section>
-                <h2>Announcements</h2>
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th>Date</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+               <tbody>
                         <tr>
                             <td>Spring Semester Starts</td>
                             <td>March 20, 2026</td>
@@ -62,72 +31,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </section>
-
-            <!-- Upcoming Assignments Section -->
-            <section>
-                <h2>Upcoming Assignments</h2>
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th>Subject</th>
-                            <th>Due Date</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Mathematics - Calculus Problem Set</td>
-                            <td>March 28, 2026</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>Biology - Lab Report</td>
-                            <td>March 25, 2026</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>History - Essay on World War II</td>
-                            <td>March 30, 2026</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>Physics - Research Project</td>
-                            <td>April 5, 2026</td>
-                            <td>Submitted</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <!-- Submit Assignment Form Section -->
-            <section>
-                <h2>Submit Assignment</h2>
-                <form>
-                    <div>
-                        <label for="subject">Subject:</label>
-                        <input type="text" id="subject" name="subject" placeholder="e.g., Mathematics, Biology" required>
-                    </div>
-
-                    <div>
-                        <label for="assignment-name">Assignment Name:</label>
-                        <input type="text" id="assignment-name" name="assignment-name" placeholder="e.g., Problem Set 5" required>
-                    </div>
-
-                    <div>
-                        <label for="comments">Comments (Optional):</label>
-                        <textarea id="comments" name="comments" placeholder="Add any comments or notes about your assignment..."></textarea>
-                    </div>
-
-                    <div>
-                        <label for="file-upload">Upload File:</label>
-                        <input type="file" id="file-upload" name="file-upload" required>
-                    </div>
-
-                    <button type="submit">Submit Assignment</button>
-                </form>
-            </section>
+            </section>  
         </main>
-    </div>
 </body>
 </html>
